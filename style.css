@@ -1,0 +1,114 @@
+body {
+	background: url(img/Background.png);
+}
+
+.game {
+ padding: 83px 0 0 95px;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.choice {
+
+}
+
+.choice__text_big {
+	font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 67px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.choice__text_small {
+	font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.level {
+  padding: 44px 0 0 9px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.level__choice {
+	font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+.level__choice_simple {
+	margin-bottom: 24px;
+}
+
+.button {
+	background: #D62B2E;
+  border-radius: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  color: #FFFFFF;
+  padding: 25px 161px 31px 0px;
+}
+
+.level__choice {
+	margin-bottom: 140px;
+}
+
+.level__choice-romb {
+	background-image: url(img/Rectangle.png);
+	background-repeat: no-repeat;
+	background-position-y: 5px;
+}
+
+.field {
+  display: none;
+}
+
+.card_back {
+	background: url('img/back.png');
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+
+.card_front {
+	background: url('img/gameover.png');
+	background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  transform: rotateY(180deg);
+}
+
+.card_bag {
+	background: url('img/bag.png');
+	background-repeat: no-repeat;
+	width: 400px;
+  height: 400px;
+  transform: rotateY(180deg);
+}
+
+.rotate {
+  transform: rotateY(180deg);
+}
+
+.card_back:hover {
+  filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.5));
+  transform: rotateZ(-3.08deg) translateY(-25px) ;
+}
+
